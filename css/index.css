@@ -1,0 +1,48 @@
+body {
+	background:rgb(216, 216, 216);
+}
+
+a {
+	color:blue !important;
+	text-decoration:none;
+}
+
+a:hover {
+	color:red !important;
+}
+
+.fieldTitle {
+	font-weight:bolder;
+	font-size: 15px;
+}
+
+.title, h1 {
+	font-weight:bold;
+	color:rgb(40, 102, 201);
+	text-align:center;
+}
+
+h3 {
+	text-align:center;
+}
+
+#getData, #resetData {
+	display:block;
+	width:200px;
+	margin:0 auto;
+}
+
+img {
+	max-height:100px;
+}
+
+#accordion {
+	margin-top:20px;
+}
+
+.userName, .eventType, .repoLocation  {
+	width:33%;
+	text-align:center;
+	display:inline-block;
+	vertical-align:top;
+}
