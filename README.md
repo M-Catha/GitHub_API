@@ -7,3 +7,7 @@ This will display the following:
 * User name tied to event
 * Type of event
 * Link to the repo
+
+Working demo:
+
+[CodePen](http://codepen.io/MCatha/full/JbxoBM/)
