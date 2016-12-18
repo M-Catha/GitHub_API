@@ -1,9 +1,13 @@
+* {
+	font-family:'Roboto';
+}
+
 body {
 	background:rgb(216, 216, 216);
 }
 
 a {
-	color:blue !important;
+	color:blue;
 	text-decoration:none;
 }
 
@@ -11,38 +15,115 @@ a:hover {
 	color:red !important;
 }
 
-.fieldTitle {
-	font-weight:bolder;
-	font-size: 15px;
+h3 {
+	text-align:center;
 }
 
-.title, h1 {
+img {
+	max-height:125px;
+	border:1px black solid;
+}
+
+h1 {
 	font-weight:bold;
 	color:rgb(40, 102, 201);
 	text-align:center;
 }
 
-h3 {
-	text-align:center;
-}
-
-#getData, #resetData {
+#getData {
 	display:block;
-	width:200px;
 	margin:0 auto;
+	color:white;
 }
 
-img {
-	max-height:100px;
+#errorBlock {
+	display:none;
+	margin:50px auto 0px auto;
+	padding:10px;
+	width:50%;
+	background-color: #f2dede;
+	border: 1px #a94442 dotted;
+	font-size:2em;
+	color: #a94442;
+	text-align:center;
+	border-radius:15px;
 }
 
-#accordion {
-	margin-top:20px;
+#getData, #userTable {
+	background: #0575E6;
+	background: -webkit-linear-gradient(to left, #0575E6 , #021B79);
+	background: linear-gradient(to left, #0575E6 , #021B79);
 }
 
-.userName, .eventType, .repoLocation  {
+#userTable {
+	width:75%;
+	margin:50px auto 0px auto;
+	border-radius:5px;
+}
+
+.eventContainer {
+	padding:10px;
+	border:1px dotted orange;
+}
+
+.accordion {
+	color:white;
+	font-weight:bolder;
+	text-align:center;
+	font-size:2em;
+}
+
+.caption {
+	font-weight:bolder;
+	font-size: 2em;
+	margin-bottom:10px;
+}
+
+.userInfo, .userEvent {
+	border-right:1px black dotted;
+}
+
+.userInfo, .userEvent, .userRepo {
+	display:inline-block;
+	margin-top:10px;
+	float:left;
+	height:200px;
 	width:33%;
 	text-align:center;
-	display:inline-block;
-	vertical-align:top;
+}
+
+.userName, .event, .repoLink {
+	font-size:1.75em;
+}
+
+.projectName {
+	color:rgb(255, 191, 0);
+}
+
+div.panel {
+	margin-top:10px;
+    padding:20px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.25s ease-in-out;
+    opacity: 0;
+    border-radius:5px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+div.accordion:after {
+	content:'\f0fe';
+	font-family:'FontAwesome';
+    float: right;
+    margin-left: 5px;
+}
+
+div.accordion.active:after {
+    content: '\f146';
+    font-family:'FontAwesome';
 }

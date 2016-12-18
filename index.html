@@ -3,23 +3,24 @@
 <html>
 	<head>
 		<title>Github Events API </title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/button.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link rel="stylesheet" href="css\index.css">
-		<link rel="stylesheet" href="css\jquery-ui.min.css">
-		<script src="js\jquery-2.2.4.min.js"></script>
-		<script src="js\jquery-ui.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
 			<h1>Most Recent Github Events API</h1>
 			<div>
-				<button class="ui-button ui-widget ui-corner-all" id="getData">Get Public Events</button>
+				<button class="ui massive button" id="getData">Get Events</button>
 			</div>
-			<div>
-				<button class="ui-button ui-widget ui-corner-all" id="resetData">Reset</button>
+			<div id="errorBlock">
+				<span class="errorText"></span>
+			</div>
+			<div id="userTable">
 			</div>
 		</div>
-		<div id="accordion" class="ui-grid-b">
-		</div>
-	<script src="js\index.js"></script>
 	</body>
+	<script src="js\index.js"></script>
 </html>
