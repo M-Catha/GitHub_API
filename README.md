@@ -8,6 +8,6 @@ This will display the following:
 * Type of event
 * Link to the repo
 
-Working demo:
+Live demo seen here:
 
 [CodePen](http://codepen.io/MCatha/full/JbxoBM/)
