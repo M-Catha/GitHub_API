@@ -10,4 +10,4 @@ This will display the following:
 
 Live demo seen here:
 
-[CodePen](http://codepen.io/MCatha/full/JbxoBM/)
+[CodePen](http://s.codepen.io/MCatha/debug/JbxoBM)
