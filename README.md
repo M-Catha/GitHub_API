@@ -10,4 +10,4 @@ This will display the following:
 
 Live demo seen here:
 
-[CodePen](http://s.codepen.io/MCatha/debug/JbxoBM)
+[CodePen](https://m-catha.github.io/Github_API/)
