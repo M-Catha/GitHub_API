@@ -10,4 +10,4 @@ This will display the following:
 
 Live demo seen here:
 
-[CodePen](https://m-catha.github.io/Github_API/)
+[Github Pages](https://m-catha.github.io/Github_API/)
